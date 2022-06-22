@@ -1,0 +1,18 @@
+{
+  "devDependencies": {
+    "parcel": "^2.6.2",
+    "parcel-plugin-custom-dist-structure": "^1.1.18"
+  },
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /portfolio/"
+  },
+  "config": {
+    ".js": "js",
+    ".css": "css",
+    "images": [
+      ".jpg",
+      ".png"
+    ]
+  }
+}
