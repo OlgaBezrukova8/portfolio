@@ -1,11 +1,13 @@
 {
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.2",
     "parcel": "^2.6.2",
     "parcel-plugin-custom-dist-structure": "^1.1.18"
   },
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /portfolio/"
+    "build": "parcel build src/*.html --public-url /portfolio/",
+    "scss": "parcel build src/sass/main.scss"
   },
   "config": {
     ".js": "js",
@@ -14,5 +16,8 @@
       ".jpg",
       ".png"
     ]
+  },
+  "dependencies": {
+    "modern-normalize": "^1.1.0"
   }
 }

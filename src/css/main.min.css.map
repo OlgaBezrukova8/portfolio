@@ -1,0 +1,20 @@
+{
+    "version": 3,
+    "mappings": "AAAA,OAAO,CAAP,0FAAO,CCAP,AAAA,CAAC,CACD,EAAE,CACF,EAAE,CACF,EAAE,CACF,EAAE,CACF,EAAE,CACF,EAAE,AAAC,CACD,MAAM,CAAE,CAAC,CACT,OAAO,CAAE,CAAC,CACX,AAED,AAAA,EAAE,CACF,EAAE,AAAC,CACD,MAAM,CAAE,CAAC,CACT,YAAY,CAAE,CAAC,CACf,UAAU,CAAE,IAAI,CACjB,AAED,AAAA,GAAG,AAAC,CACF,OAAO,CAAE,KAAK,CACd,SAAS,CAAE,IAAI,CACf,MAAM,CAAE,IAAI,CAEb,AEvBD,AAAA,CAAC,CACD,OAAO,CACP,QAAQ,AAAC,CACP,UAAU,CAAE,UAAU,CACvB,AAED,AAAA,IAAI,AAAC,CAIH,WAAW,CAAE,kBAAkB,CAIhC,AAOD,AAAA,KAAK,AAAC,CACJ,OAAO,CAAE,KAAK,CACd,eAAe,CAAE,IAAI,CACrB,KAAK,CDxBc,IAAK,CCyBzB,AAED,AAAA,MAAM,AAAC,CACL,OAAO,CAAE,IAAI,CACd,AAED,AAAA,OAAO,AAAC,CASN,MAAM,CAAE,OAAO,CAMhB,AAED,AAAA,MAAM,AAAC,CAEL,cAAc,CAAE,SAAS,CACzB,SAAS,CAAE,IAAI,CAChB,AAED,UAAU,CAAV,aAAU,CACR,EAAE,CACA,OAAO,CAAE,CAAC,CAGZ,IAAI,CACF,OAAO,CAAE,CAAC",
+    "sources": [
+        "../sass/main.scss",
+        "../sass/base/_reset.scss",
+        "../sass/utils/_variables.scss",
+        "../sass/base/_common.scss",
+        "../sass/utils/_mixins.scss",
+        "../sass/utils/_hidden.scss",
+        "../sass/layout/_hero.scss",
+        "../sass/layout/_contact.scss",
+        "../sass/layout/_skills.scss",
+        "../sass/layout/_languages.scss",
+        "../sass/layout/_experience.scss",
+        "../sass/layout/_education.scss"
+    ],
+    "names": [],
+    "file": "main.min.css"
+}
