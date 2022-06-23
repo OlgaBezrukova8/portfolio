@@ -5,11 +5,7 @@
 }
 
 body {
-  //   color: $primary-text-color;
-  //   background-color: $primary-white-color;
-
   font-family: Roboto, sans-serif;
-
   font-size: $primary-font-size;
   letter-spacing: $primary-letter-spacing;
   line-height: $primary-line-height;
@@ -33,6 +29,11 @@ body {
 
 .input {
   outline: none;
+}
+
+.list {
+  padding: 25px 30px;
+  list-style: square;
 }
 
 .button {

@@ -7,7 +7,7 @@
   margin-right: 30px;
 }
 
-.hero-general__container {
+.hero-text__container {
   text-align: end;
 }
 
@@ -19,8 +19,13 @@
 
 .hero__text {
   font-size: 20px;
+  margin-bottom: 15px;
 }
 
-.hero__text {
-  margin-bottom: 10px;
+.hero-summary__title {
+  margin-bottom: 30px;
 }
+
+// .hero-summary__text {
+//   padding: 15px;
+// }
