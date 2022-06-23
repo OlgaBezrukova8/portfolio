@@ -1,3 +1,19 @@
 $primary-text-color: black;
+$accent-back-ground-color: rgb(0, 139, 139, 0.1);
+$main-background-color: rgb(255, 255, 255);
+$title-background-color: rgb(112, 128, 144);
 
 $second-font-family: Raleway;
+
+//   font-size: $primary-font-size;
+$primary-font-size: 14px;
+$title-font-size: 20px;
+
+$primary-letter-spacing: 0.03em;
+$primary-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+$primary-border-radius: 4px;
+
+$primary-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+// line-height: calc(30 / 16);
+$primary-line-height: calc(17 / 16);

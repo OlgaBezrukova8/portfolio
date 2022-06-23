@@ -33,6 +33,11 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+.section {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .link {
   display: block;
   text-decoration: none;
@@ -59,5 +64,25 @@ body {
   100% {
     opacity: 1;
   }
+}
+
+.contact {
+  background-color: lightskyblue;
+}
+
+.skills {
+  background-color: lightskyblue;
+}
+
+.languages {
+  background-color: lightskyblue;
+}
+
+.experience {
+  background-color: white;
+}
+
+.education {
+  background-color: white;
 }
 /*# sourceMappingURL=main.css.map */

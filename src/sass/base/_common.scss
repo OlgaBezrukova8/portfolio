@@ -10,14 +10,20 @@ body {
 
   font-family: Roboto, sans-serif;
 
-  //   font-size: $primary-font-size;
-  //   letter-spacing: $primary-letter-spacing;
+  font-size: $primary-font-size;
+  letter-spacing: $primary-letter-spacing;
+  line-height: $primary-line-height;
 }
 
-// .section {
-//   // padding-top: 94px;
-//   // padding-bottom: 94px;
-// }
+.section {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.container {
+  padding-left: 280px;
+  padding-right: 280px;
+}
 
 .link {
   display: block;
@@ -44,12 +50,6 @@ body {
   //   background-color: $accent-color;
 
   //   transition: $primary-transition;
-}
-
-.title {
-  // font-family: Roboto, sans-serif;
-  text-transform: uppercase;
-  font-size: 18px;
 }
 
 @keyframes animation-btn {
