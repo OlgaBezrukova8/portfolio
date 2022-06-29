@@ -1,3 +1,32 @@
-.text__container {
-  padding: 25px 30px 10px 20px;
+.experience__list {
+  list-style: square;
+}
+
+.info__container {
+  padding: 25px 20px;
+}
+
+.text__container--prepend {
+  margin-bottom: 10px;
+}
+
+.experience-name__text {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 2px;
+}
+
+.experience-date__text--prepend {
+  font-size: 12px;
+  margin-bottom: 6px;
+}
+
+.experience__text--accent-color {
+  color: $title-background-color;
+  font-weight: 500;
+  margin-left: 4px;
+}
+
+.experience__item--append {
+  margin-top: 6px;
 }

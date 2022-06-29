@@ -1,3 +1,9 @@
 .languages__container {
   background-color: $accent-back-ground-color;
 }
+
+.languages__text--accent-color {
+  color: $title-background-color;
+  font-weight: 500;
+  margin-right: 6px;
+}

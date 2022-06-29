@@ -17,8 +17,10 @@ body {
 }
 
 .container {
-  padding-left: 280px;
-  padding-right: 280px;
+  // padding-left: 280px;
+  // padding-right: 280px;
+  max-width: 70%;
+  margin: 0 auto;
 }
 
 .link {
@@ -34,6 +36,10 @@ body {
 .list {
   padding: 25px 30px;
   list-style: square;
+}
+
+.info__list {
+  padding: 0px 30px;
 }
 
 .button {

@@ -1,16 +1,10 @@
 .generall__container {
   display: flex;
-  flex-wrap: wrap;
-
-  margin-top: -10px;
-  margin-left: -10px;
+  padding-top: 0px;
 }
 
-.grid {
-  margin-left: 10px;
-
-  width: auto;
-  flex-basis: calc((100% - 20px) / 2);
+.general-left__container {
+  margin-right: 10px;
 }
 
 .title {
@@ -18,7 +12,7 @@
 
   text-transform: uppercase;
   font-size: $title-font-size;
-  
+
   background-color: $title-background-color;
   color: white;
 }
