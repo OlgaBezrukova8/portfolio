@@ -4,6 +4,7 @@
     "parcel": "^2.6.2",
     "parcel-plugin-custom-dist-structure": "^1.1.18"
   },
+  "homepage": "https://goitacademy.github.io/portfolio",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /portfolio/",
