@@ -4,7 +4,7 @@
 
 .projects-info__container {
   display: flex;
-  align-items: baseline;
+  align-items: center;
 }
 
 .projects-info__container:not(:last-child) {
@@ -19,4 +19,17 @@
   font-weight: 600;
 
   text-decoration: $link-underline;
+
+  &:hover {
+    color: $primary-text-color;
+  }
+}
+
+.projects__icon {
+  margin-right: 5px;
+
+  &:hover {
+    transform: scale(1.1);
+    fill: $title-background-color;
+  }
 }
