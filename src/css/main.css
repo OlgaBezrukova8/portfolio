@@ -1,4 +1,4 @@
-@import url(/Users/olya/Desktop/main/portfolio/node_modules/modern-normalize/modern-normalize.css);
+@import "../../node_modules/modern-normalize/modern-normalize.css";
 p,
 h1,
 h2,
@@ -27,15 +27,29 @@ img {
 ::after,
 ::before {
   box-sizing: border-box;
+  transition-property: background-color, transform, box-shadow, color, opacity, visibility, border;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 body {
   font-family: Roboto, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  line-height: 1.0625;
 }
 
 .section {
   padding-top: 30px;
   padding-bottom: 30px;
+}
+
+.container {
+  padding-left: 75px;
+  padding-right: 75px;
+  width: 1200px;
+  margin: 0 auto;
+  /* ---------------------- */
 }
 
 .link {
@@ -48,13 +62,22 @@ body {
   outline: none;
 }
 
-.button {
-  cursor: pointer;
+.list {
+  padding: 25px 30px;
+  list-style: square;
 }
 
-.title {
-  text-transform: uppercase;
-  font-size: 18px;
+.info__list {
+  padding: 0px 30px;
+}
+
+.button {
+  padding: 0;
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: transparent;
 }
 
 @keyframes animation-btn {
@@ -65,24 +88,188 @@ body {
     opacity: 1;
   }
 }
-
-.contact {
-  background-color: lightskyblue;
+.hero__container {
+  display: flex;
+  align-items: center;
 }
 
-.skills {
-  background-color: lightskyblue;
+.hero__image {
+  margin-right: 10px;
 }
 
-.languages {
-  background-color: lightskyblue;
+.hero-text__container {
+  text-align: end;
 }
 
-.experience {
-  background-color: white;
+.hero__title {
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
-.education {
-  background-color: white;
+.hero__text {
+  font-size: 20px;
+  margin-bottom: 30px;
 }
-/*# sourceMappingURL=main.css.map */
+
+.hero-summary__title {
+  margin-bottom: 30px;
+}
+
+.accent-text {
+  font-weight: 500;
+  color: rgb(112, 128, 144);
+}
+
+.hero-summary__text {
+  padding: 10px 30px;
+}
+
+.generall__container {
+  display: flex;
+  padding-top: 0px;
+}
+
+.general-left__container {
+  margin-right: 10px;
+}
+
+.title {
+  padding: 5px 8px;
+  text-transform: uppercase;
+  font-size: 20px;
+  background-color: rgb(112, 128, 144);
+  color: white;
+}
+
+.contact__container {
+  background-color: rgba(0, 139, 139, 0.1);
+}
+
+.contact__item--append {
+  margin-top: 8px;
+}
+
+.contact__link--underline {
+  text-decoration: underline;
+}
+
+.projects__item:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.projects-info__container {
+  display: flex;
+  align-items: center;
+}
+
+.projects-info__container:not(:last-child) {
+  margin-bottom: 4px;
+}
+
+.projects__link {
+  margin-right: 5px;
+  color: rgb(112, 128, 144);
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+.projects__link:hover {
+  color: black;
+}
+
+.projects__icon {
+  margin-right: 5px;
+}
+.projects__icon:hover {
+  transform: scale(1.1);
+  fill: rgb(112, 128, 144);
+}
+
+.projects__status {
+  margin-left: 5px;
+  font-size: 12px;
+  font-weight: 500;
+  color: rgb(112, 128, 144);
+}
+
+.tech-skills__container {
+  background-color: rgba(0, 139, 139, 0.1);
+}
+
+.tech-skills__item--append {
+  margin-top: 10px;
+}
+
+.experience__list {
+  list-style: square;
+}
+
+.info__container {
+  padding: 25px 20px;
+}
+
+.text__container--prepend {
+  margin-bottom: 10px;
+}
+
+.experience-name__text {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 2px;
+}
+
+.experience-date__text--prepend {
+  font-size: 12px;
+  margin-bottom: 6px;
+}
+
+.experience__text--accent-color {
+  color: rgb(112, 128, 144);
+  font-weight: 500;
+  margin-left: 4px;
+}
+
+.experience__item--append {
+  margin-top: 6px;
+}
+
+.soft-skills__container {
+  background-color: rgba(0, 139, 139, 0.1);
+}
+
+.education-name__text {
+  font-weight: 500;
+  color: rgb(112, 128, 144);
+  margin-bottom: 2px;
+}
+
+.education-date__text {
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+.languages__container {
+  background-color: rgba(0, 139, 139, 0.1);
+}
+
+.languages__text--accent-color {
+  color: rgb(112, 128, 144);
+  font-weight: 500;
+  margin-right: 6px;
+}
+
+.additional-name__text {
+  font-weight: 500;
+  color: rgb(112, 128, 144);
+  margin-bottom: 2px;
+}
+
+.additional-date__text {
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+.additional__text {
+  font-weight: 500;
+}/*# sourceMappingURL=main.css.map */
