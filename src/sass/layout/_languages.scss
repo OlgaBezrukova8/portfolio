@@ -2,8 +2,11 @@
   background-color: $accent-back-ground-color;
 }
 
-.languages__text--accent-color {
-  color: $title-background-color;
+.languages__text {
   font-weight: 500;
   margin-right: 6px;
+}
+
+.languages__item--append {
+  margin-bottom: 3px;
 }

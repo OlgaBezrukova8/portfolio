@@ -2,8 +2,8 @@
   background-color: $accent-back-ground-color;
 }
 
-.contact__item--append {
-  margin-top: 8px;
+.contact__item:not(:last-child) {
+  margin-bottom: 3px;
 }
 
 .contact__link--underline {

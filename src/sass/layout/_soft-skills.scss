@@ -1,3 +1,7 @@
 .soft-skills__container {
-    background-color: $accent-back-ground-color;
+  background-color: $accent-back-ground-color;
+}
+
+.soft-skills__item:not(:last-child) {
+  margin-bottom: 3px;
 }
